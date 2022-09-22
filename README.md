@@ -10,7 +10,7 @@ This site was built using React.
 
 ## Deployed Link
 
-https://jossparling.github.io/portfolio/
+https://josiesportfolio.herokuapp.com/
 
 ## Screenshot 
 
