@@ -3,7 +3,7 @@ import DownloadIcon from '@mui/icons-material/Download'
 
 const Resume = () => {
 
-    const skills = ['HTML', 'CSS', 'JavaScript', 'Node.js', 'Express.js', 'React.js', 'MongoDB', 'MySQL', 'GraphQL', 'React']
+    const skills = ['HTML', 'CSS', 'JavaScript', 'Node.js', 'Express.js', 'React.js', 'MongoDB', 'MySQL', 'GraphQL']
     
     return(
         <section className="resume">
