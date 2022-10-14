@@ -37,7 +37,7 @@ const MobileNav = () => {
                     <ul>
                         {/* TODO: Pull this list into a separate component to be shared between desktop nav and mobile nav */}
                         <li style={liStyle}><NavLink to ="/about">About</NavLink></li>
-                        <li style={liStyle}><NavLink to="/portfolio">Portfolio</NavLink></li>
+                        <li style={liStyle}><NavLink to="/portfoliohome">Portfolio</NavLink></li>
                         <li style={liStyle}><NavLink to="/resume">Resume</NavLink></li>
                         <li style={liStyle}><NavLink to="/contact">Contact</NavLink></li>
                     </ul> 

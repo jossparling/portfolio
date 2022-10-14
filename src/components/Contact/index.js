@@ -53,7 +53,7 @@ const ContactForm = () => {
                 <TextField  sx={{ color: 'white'}} id="name" name="name" label="Name" variant="outlined" onBlur={handleChange} defaultValue={name} />
                 <TextField  sx={{ fontFamily: 'Open Sans'}} id="email" name="email" label="Email" variant="outlined" onBlur={handleChange} defaultValue={email} />
                 <TextField  id="message" name="message" label="Message" variant="outlined" onBlur={handleChange} defaultValue={message} multiline rows={4} sx={{ fontFamily: 'Open Sans'}} />
-                {errorMessage && <Alert severity="error" variant="filled" sx={{ fontFamily: 'Poppins'}} >{errorMessage}</Alert>}
+                {errorMessage && <Alert severity="error" variant="filled" sx={{ fontFamily: 'Open Sans'}} >{errorMessage}</Alert>}
                 <Button variant="outlined" onClick={handleSubmit} >
                     Submit  &nbsp;&nbsp;<SendIcon />
                 </Button>
